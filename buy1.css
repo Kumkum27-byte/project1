@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+/**{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}*/
+body{
+    background-image:url(library.jpg);
+    background-size:cover;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(150, 126, 126);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.border{
+    border: 1.5px solid transparent ;
+}
+.border:hover{
+    border: 1.5px solid black;
+}
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width:620px;
+    height:40px;
+    background-color:pink;
+    border-radius:4px;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.5rem;
+    background-color:pink;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:white;
+}
+.cross-icon{
+    background-color:pink;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.nav-search:hover{
+    border: 2px solid pink;
+}
+/* /hero-section started */
+
+.hero1-section{
+    width:350px;
+    height:330px;
+    background-color:rgb(136, 186, 229);
+    margin-top:200px;
+    margin-left:600px;
+    
+}
+.wlc{
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+   padding-top:50px;
+}
+.pass{
+   
+    flex-direction: column;
+    width:250px;
+    height:40px;
+    margin-left:50px;
+    margin-top:10px;
+    
+}
+#pass{
+    text-align: center;
+    align-content: center;
+    width:250px;
+    height:40px;
+    margin-left:50px;
+    margin-top:10px;
+    background-color:blue;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    margin-top: 15px;
+    width: 40%;
+    padding: 10px;
+}
+.sidebar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(228, 211, 211);
+    margin-bottom: 10px;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.shop-section{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 350px;
+    width: 18%;
+    /*border: 2px solid black;*/
+    background-color: white;
+    padding: 20px,0px,15px;
+    margin-top: 15px;
+}
+.icon-price{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.box-content a{
+    text-decoration: none;
+    font-family:inherit;
+}
